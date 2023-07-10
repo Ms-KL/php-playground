@@ -62,4 +62,7 @@
         - MAMP app - preferences - ports - MAMP Default
   - BUG: "To run this application you must install .NET Core.
     - Troubleshooting on [The Windows Club](https://www.thewindowsclub.com/to-run-this-application-you-must-install-net-core)
-  -
+  - to find the index.html on display in http://localhost:8888/:
+    - navigate to: `C:\MAMP\htdocs`
+
+### _[How to code your first PHP program](https://www.freecodecamp.org/news/the-php-handbook/#how-to-code-your-first-php-program)_
