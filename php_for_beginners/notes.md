@@ -6,14 +6,14 @@
 
 ## Notes:
 
-### _Introduction to PHP_
+### _[Introduction to PHP](https://www.freecodecamp.org/news/the-php-handbook/#introduction-to-php)_
 
 - use `PHP` to add interactivity to `HTML`
 - user as Web App engine that creates `HTML` pages dynamically and sends to browser
 - scalable
 - Powered by `PHP`: FB, Wikipedia, Etsy, Slack
 
-### _What Kind of Language is PHP?_
+### _[What Kind of Language is PHP?](https://www.freecodecamp.org/news/the-php-handbook/#what-kind-of-language-is-php)_
 
 - Programming languages have different types:
 
@@ -45,7 +45,7 @@
   - similar to `JS`
   - supports OOP & Functional Programming
 
-### _How to Setup PHP_
+### _[How to Setup PHP](https://www.freecodecamp.org/news/the-php-handbook/#how-to-setup-php)_
 
 - PHP Server:
   - `PHP` run by HTTP Server (responds to HTTP requests made by browser)
@@ -53,4 +53,7 @@
   - Server: Apache or NGINX
   - Database needed for non-trivial: MySQL
   - Suggestion: Use [MAMP](https://www.mamp.info/en/windows/) (combines above)
-    - install PHP using MAMP
+    - ✅ install PHP using MAMP
+  - BUG: "To run this application you must install .NET Core.
+    - Troubleshooting on [The Windows Club](https://www.thewindowsclub.com/to-run-this-application-you-must-install-net-core)
+  -
