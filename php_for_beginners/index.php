@@ -172,6 +172,13 @@ This is HTML
     */
 
     ?>
+
+Upto Arrays:
+<!-- https://www.freecodecamp.org/news/the-php-handbook/#how-arrays-work-in-php -->
+
+
+
+
 <!-- ----------------
 PHP Language Basics:
 https://www.freecodecamp.org/news/the-php-handbook/#php-language-basics
