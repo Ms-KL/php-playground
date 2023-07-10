@@ -1,13 +1,13 @@
 <h1> Exploring PHP within HTML </h1>
 
-<h2>This is HTML</h2>
-<h2>
+This is HTML
+<b>
   <?php
     echo 'This is embedded PHP';
     ?>
-</h2>
+</b>
 
-Variables:<br>
+<h2>Variables:</h2>
     <?php
         // initialise variable:
         $name = 'Kristy';
@@ -24,6 +24,45 @@ Variables:<br>
         $age = 'fifty';
         var_dump($age); // string(5) "fifty"
         ?>
+
+<h2>Operators: </h2>
+
+<?php
+    // arithmetic operators
+    // + - * / % **
+    $base = 20;
+    $height = 10;
+    $area = $base * $height;
+    var_dump($area); // int(200)
+
+    // comparison operators
+    // < > <= >= ==
+    2 < 1; // false
+    2 > 1; // true
+    2 <= 1; // false
+    2 >= 1; // true
+    2 == 1; // false
+
+    // EQUAL + IDENTICAL
+    // equal versus identical
+    // equal checks only the value
+    // identical checks the value and the type (int versus string)
+    1 == '1'; // true (equal)
+    1 === '1'; // false (identical)
+
+    // NOT EQUAL
+    1 != 1; // false (value is true)
+    1 != '1'; // false (value is true)
+    1 != 2; // true (value is false)
+
+    // NOT IDENTICAL
+    1 !== 1; // false (value and type are true)
+    1 !== '1'; // true (value is true, type is false)
+    1 !== 2; // true (value and type are false)
+
+    
+    ?>
+
 
 <!-- ----------------
 PHP Language Basics:
