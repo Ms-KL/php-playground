@@ -95,8 +95,23 @@ This is HTML
     false xor true; // true (because one is true)
     false xor false; // false (because none are true)
 
+    // if not true
     $test = true;
-    !$test // if test is not true, print true, else false
+    !$test; // if test is not true, print true, else false
+
+    // expressions
+    1 > 2 || 2 > 1; // answer: true (because false or true --> || any true to pass)
+    1 !== 2 && 2 > 2; // answer: false (because true and false --> && any false to fail)
+
+    // urinary operators
+    // the ++ operator adds 1 to a variable
+    // to add more to the variable, use += 2 (adds 2 to the variable)
+    $age = 20;
+    $age++; 
+    var_dump($age); // int(21)
+
+    $age-= 2;
+    var_dump($age); // int(19)
 
     ?>
 
