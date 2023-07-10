@@ -54,6 +54,12 @@
   - Database needed for non-trivial: MySQL
   - Suggestion: Use [MAMP](https://www.mamp.info/en/windows/) (combines above)
     - ✅ install PHP using MAMP
+    - [MAMP Documentation](https://documentation.mamp.info/en/MAMP-Windows/Installation/index.html)
+    - NOTE:
+      - to use: http://localhost:8888/
+        - MAMP app - preferences - ports - 80 & 3306 option
+      - to use: http://localhost/MAMP/
+        - MAMP app - preferences - ports - MAMP Default
   - BUG: "To run this application you must install .NET Core.
     - Troubleshooting on [The Windows Club](https://www.thewindowsclub.com/to-run-this-application-you-must-install-net-core)
   -
