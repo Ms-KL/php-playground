@@ -62,7 +62,38 @@
         - MAMP app - preferences - ports - MAMP Default
   - BUG: "To run this application you must install .NET Core.
     - Troubleshooting on [The Windows Club](https://www.thewindowsclub.com/to-run-this-application-you-must-install-net-core)
-  - to find the index.html on display in http://localhost:8888/:
-    - navigate to: `C:\MAMP\htdocs`
+  - to find the index.php on display in http://localhost:8888/:
+    - navigate to: `C:/MAMP/htdocs`
 
 ### _[How to code your first PHP program](https://www.freecodecamp.org/news/the-php-handbook/#how-to-code-your-first-php-program)_
+
+1. open `C:/MAMP/htdocs/index.php`
+2. move to appropriate directory: <br> eg: `C:\GIT\ms-kl\php-playground\php_for_beginners\index.php`
+3. MAMP -> Preferences -> Server -> Change Document root to appropriate directory
+4. Start Server and View: http://localhost:8888/ or http://localhost/MAMP/
+
+#### What is happening?
+
+- Via MAMP:
+
+  - Apache HTTP Server is listening on port 8888 on localhost
+  - HTTP request is made: what is the content of the route /baseurl ? (eg: index.html)
+  - **if `index.html`, else `index.php`:**
+    - Apache configured to respond with index.html --> doesn't exist in folder
+    - Apache also configured to work with PHP and will search for index.php instead
+  - index.php code executed on the server before Apache sends back to browser
+  - page is still technically html
+  - can embed php in html
+
+  ```html
+  Hello
+  <?php
+    echo 'World';
+    ?>
+
+  is the same as:
+
+  <?php
+    echo 'Hello World';
+    ?>
+  ```
