@@ -60,7 +60,44 @@ This is HTML
     1 !== '1'; // true (value is true, type is false)
     1 !== 2; // true (value and type are false)
 
+    // Logical AND Operators
+    // && "and"
+    // any fail = false
+
+    true && true; // true
+    true && false; // false
+    false && true; // false
+    false && false; // false
     
+    true and true; // true
+    true and false; // false
+    false and true; // false
+    false and false; // false
+
+    // Logical OR Operators
+    // || "or"
+    // any pass = true
+
+    true || true; // true
+    true || false; // true
+    false || true; // true
+    false || false; // false
+
+    true or true; // true
+    true or false; // true
+    false or true; // true
+    false or false; // false
+
+    // Logical XOR (one of the two options are true, but not both)
+
+    true xor true; // false (because both are true)
+    true xor false; // true (because one is true)
+    false xor true; // true (because one is true)
+    false xor false; // false (because none are true)
+
+    $test = true;
+    !$test // if test is not true, print true, else false
+
     ?>
 
 
